@@ -1,4 +1,6 @@
-This package implements our 2D Tree Radix-2 Sliding Window Discrete Fourier Transform. In addition to the algorithm, we provide a driver program that runs the algorithm on a 2D array, a program that proves numerical stability, and a program that times our algorithm against taking a 2D DFT (SWDFT) or 2D FFT (SWFFT) for each window position.
+Implementation of the 2D Tree Radix-2 Sliding Window Discrete Fourier Transform. The algorithm paper will appear in the 45th volume of ACM TOMS (https://toms.acm.org/), and the software package will be in the Collected Algorithms of the ACM (http://calgo.acm.org/). 
+
+In addition to the algorithm, we provide a driver program that runs the algorithm on a 2D array, a program that proves numerical stability, and a program that times our algorithm against taking a 2D DFT (SWDFT) or 2D FFT (SWFFT) for each window position.
 
 Files corresponding to the 2D Tree SWDFT algorithm in the src/ directory. 
 tswdft2d.c		--- C function that implements our algorithm.
